@@ -9,12 +9,14 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-class LoginViewController: UIViewController {
+import MRProgress
+class LoginViewController: BaseViewController {
     
 
 
     let loginCell = "LoginTableViewCell"
     var arrRes = [[String:AnyObject]]()
+    
     @IBOutlet weak var tbView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,10 +40,13 @@ class LoginViewController: UIViewController {
     
     func getData(){
         
+       showDialog()
+   
+        
         Alamofire.request("http://api.androidhive.info/contacts/").responseJSON { (responseData) -> Void in
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
-                
+                self.dismissDialog()
                 if let resData = swiftyJsonVar["contacts"].arrayObject {
                     self.arrRes = resData as! [[String:AnyObject]]
                 }

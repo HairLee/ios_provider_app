@@ -14,14 +14,13 @@ class MapViewViewController: UIViewController {
     @IBOutlet weak var myMapView: MKMapView!
     
     let initialLocation = CLLocation(latitude: 21.028511, longitude: 105.804817)
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         centerMapOnLocation(location: initialLocation)
 //        showAtWorkOnMap()
         
-        let name = ""
-
+      
      
     }
     

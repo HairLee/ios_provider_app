@@ -7,9 +7,9 @@
 //
 
 import UIKit
-
+import MRProgress
 class BaseViewController: UIViewController {
-
+    var overlay = MRProgressOverlayView()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +18,14 @@ class BaseViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         tabBarController?.tabBar.isHidden = false
+    }
+    
+    func showDialog(){
+        overlay = MRProgressOverlayView.showOverlayAdded(to: self.view, animated: false)
+    }
+    
+    func dismissDialog(){
+        overlay.dismiss(true)
     }
 
 
