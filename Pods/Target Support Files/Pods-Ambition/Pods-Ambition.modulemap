@@ -1,0 +1,6 @@
+framework module Pods_Ambition {
+  umbrella header "Pods-Ambition-umbrella.h"
+
+  export *
+  module * { export * }
+}
