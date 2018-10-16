@@ -20,7 +20,7 @@ class MapViewViewController: UIViewController {
         centerMapOnLocation(location: initialLocation)
 //        showAtWorkOnMap()
         
-        
+        let name = ""
 
      
     }
