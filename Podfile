@@ -7,6 +7,7 @@ target 'Ambition' do
     pod 'Alamofire'
     pod 'SwiftyJSON'
     pod 'GoogleMaps'
+    pod 'MRProgress/AFNetworking'
 end
 
 
