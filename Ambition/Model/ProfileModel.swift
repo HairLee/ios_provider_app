@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+import Alamofire
+import SwiftyJSON
 public func dataFromFile(_ filename: String) -> Data? {
     @objc class TestClass: NSObject { }
     
@@ -16,6 +17,19 @@ public func dataFromFile(_ filename: String) -> Data? {
         return (try? Data(contentsOf: URL(fileURLWithPath: path)))
     }
     return nil
+}
+
+public func getDataFromServer()  {
+    Alamofire.request("http://api.androidhive.info/contacts/").responseJSON { (responseData) -> Void in
+        if((responseData.result.value) != nil) {
+            let swiftyJsonVar = JSON(responseData.result.value!)
+           
+            if let resData = swiftyJsonVar["contacts"].arrayObject {
+                    print(resData)
+            }
+        
+        }
+    }
 }
 
 class Profile {

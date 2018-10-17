@@ -36,7 +36,7 @@ class SecondViewModel: NSObject {
         let midItem = SecondViewModelMidItem(about: "Ahihe")
         secondItems.append(midItem)
         
-        let bottomItem = SecondViewModelBottomItem(friends: ["Ambition","Hair Lee","Ahihia"])
+        let bottomItem = SecondViewModelBottomItem(friends: ["Ambition","Hair Lee","Ahihia","Ambition","Hair Lee","Ahihia","Ambition","Hair Lee","Ahihia","Ambition","Hair Lee","Ahihia","Ambition","Hair Lee","Ahihia","Ambition","Hair Lee","Ahihia"])
         secondItems.append(bottomItem)
         
     }

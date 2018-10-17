@@ -23,6 +23,7 @@ class SecondViewController: UIViewController {
         tableView?.register(MidTableViewCell.nib, forCellReuseIdentifier: MidTableViewCell.identifier)
         tableView?.register(BottomTableViewCell.nib, forCellReuseIdentifier: BottomTableViewCell.identifier)
 
+        
     }
 
 

@@ -32,6 +32,8 @@ class ProfileViewModel: NSObject {
             return
         }
         
+        getDataFromServer()
+        
         if let name = profile.fullName, let pictureUrl = profile.pictureUrl {
             let nameAndPictureItem = ProfileViewModelNamePictureItem(name: name, pictureUrl: pictureUrl)
             items.append(nameAndPictureItem)
