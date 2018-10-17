@@ -18,10 +18,36 @@
 		12FBE28B21758490005ECEFD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE28921758490005ECEFD /* LoginViewController.xib */; };
 		12FBE28F21758772005ECEFD /* LoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE28D21758772005ECEFD /* LoginTableViewCell.swift */; };
 		12FBE29021758772005ECEFD /* LoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE28E21758772005ECEFD /* LoginTableViewCell.xib */; };
-		12FBE2922175C7E9005ECEFD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2912175C7E9005ECEFD /* SettingViewController.swift */; };
 		12FBE2952175D2F7005ECEFD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2942175D2F7005ECEFD /* BaseViewController.swift */; };
 		12FBE2972175D3DE005ECEFD /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2962175D3DE005ECEFD /* MapViewViewController.swift */; };
 		12FBE29A2175D928005ECEFD /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2992175D928005ECEFD /* Artwork.swift */; };
+		12FBE29D2176CF6B005ECEFD /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE29C2176CF6B005ECEFD /* UIButtonExtensions.swift */; };
+		12FBE29F2176D011005ECEFD /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE29E2176D011005ECEFD /* FavouriteViewController.swift */; };
+		12FBE2A42176D5C1005ECEFD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2A32176D5C1005ECEFD /* FirstViewController.swift */; };
+		12FBE2A72176D932005ECEFD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2A52176D932005ECEFD /* SecondViewController.swift */; };
+		12FBE2A82176D932005ECEFD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2A62176D932005ECEFD /* SecondViewController.xib */; };
+		12FBE2D72176EAAE005ECEFD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2D62176EAAE005ECEFD /* SettingViewController.swift */; };
+		12FBE2D92176EABC005ECEFD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2D82176EABC005ECEFD /* ProfileViewController.swift */; };
+		12FBE2F02176F472005ECEFD /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2EF2176F472005ECEFD /* ProfileViewModel.swift */; };
+		12FBE2FD2176F4DF005ECEFD /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2F32176F4DF005ECEFD /* AboutCell.swift */; };
+		12FBE2FE2176F4DF005ECEFD /* AboutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2F42176F4DF005ECEFD /* AboutCell.xib */; };
+		12FBE2FF2176F4DF005ECEFD /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2F52176F4DF005ECEFD /* AttributeCell.swift */; };
+		12FBE3002176F4DF005ECEFD /* AttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2F62176F4DF005ECEFD /* AttributeCell.xib */; };
+		12FBE3012176F4DF005ECEFD /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2F72176F4DF005ECEFD /* EmailCell.swift */; };
+		12FBE3022176F4DF005ECEFD /* EmailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2F82176F4DF005ECEFD /* EmailCell.xib */; };
+		12FBE3032176F4DF005ECEFD /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2F92176F4DF005ECEFD /* FriendCell.swift */; };
+		12FBE3042176F4DF005ECEFD /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2FA2176F4DF005ECEFD /* FriendCell.xib */; };
+		12FBE3052176F4DF005ECEFD /* NamePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE2FB2176F4DF005ECEFD /* NamePictureCell.swift */; };
+		12FBE3062176F4DF005ECEFD /* NamePictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE2FC2176F4DF005ECEFD /* NamePictureCell.xib */; };
+		12FBE3082176F52D005ECEFD /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE3072176F52D005ECEFD /* ProfileModel.swift */; };
+		12FBE30A2176F594005ECEFD /* ServerData.json in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE3092176F594005ECEFD /* ServerData.json */; };
+		12FBE30D21770C5A005ECEFD /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE30C21770C5A005ECEFD /* SecondViewModel.swift */; };
+		12FBE31121770DB3005ECEFD /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE30F21770DB3005ECEFD /* TopTableViewCell.swift */; };
+		12FBE31221770DB3005ECEFD /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE31021770DB3005ECEFD /* TopTableViewCell.xib */; };
+		12FBE31521770DC2005ECEFD /* MidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE31321770DC2005ECEFD /* MidTableViewCell.swift */; };
+		12FBE31621770DC2005ECEFD /* MidTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE31421770DC2005ECEFD /* MidTableViewCell.xib */; };
+		12FBE31921770DCE005ECEFD /* BottomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBE31721770DCE005ECEFD /* BottomTableViewCell.swift */; };
+		12FBE31A21770DCE005ECEFD /* BottomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FBE31821770DCE005ECEFD /* BottomTableViewCell.xib */; };
 		FBA48E74400BD120235EBB82 /* Pods_Ambition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487AA87A49F54276E568F89F /* Pods_Ambition.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,10 +86,36 @@
 		12FBE28921758490005ECEFD /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		12FBE28D21758772005ECEFD /* LoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewCell.swift; sourceTree = "<group>"; };
 		12FBE28E21758772005ECEFD /* LoginTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTableViewCell.xib; sourceTree = "<group>"; };
-		12FBE2912175C7E9005ECEFD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		12FBE2942175D2F7005ECEFD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		12FBE2962175D3DE005ECEFD /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
 		12FBE2992175D928005ECEFD /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		12FBE29C2176CF6B005ECEFD /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ../../../../../Documents/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		12FBE29E2176D011005ECEFD /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		12FBE2A32176D5C1005ECEFD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		12FBE2A52176D932005ECEFD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		12FBE2A62176D932005ECEFD /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		12FBE2D62176EAAE005ECEFD /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		12FBE2D82176EABC005ECEFD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		12FBE2EF2176F472005ECEFD /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		12FBE2F32176F4DF005ECEFD /* AboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		12FBE2F42176F4DF005ECEFD /* AboutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutCell.xib; sourceTree = "<group>"; };
+		12FBE2F52176F4DF005ECEFD /* AttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		12FBE2F62176F4DF005ECEFD /* AttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttributeCell.xib; sourceTree = "<group>"; };
+		12FBE2F72176F4DF005ECEFD /* EmailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
+		12FBE2F82176F4DF005ECEFD /* EmailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailCell.xib; sourceTree = "<group>"; };
+		12FBE2F92176F4DF005ECEFD /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		12FBE2FA2176F4DF005ECEFD /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
+		12FBE2FB2176F4DF005ECEFD /* NamePictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamePictureCell.swift; sourceTree = "<group>"; };
+		12FBE2FC2176F4DF005ECEFD /* NamePictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NamePictureCell.xib; sourceTree = "<group>"; };
+		12FBE3072176F52D005ECEFD /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		12FBE3092176F594005ECEFD /* ServerData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServerData.json; sourceTree = "<group>"; };
+		12FBE30C21770C5A005ECEFD /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		12FBE30F21770DB3005ECEFD /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		12FBE31021770DB3005ECEFD /* TopTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
+		12FBE31321770DC2005ECEFD /* MidTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidTableViewCell.swift; sourceTree = "<group>"; };
+		12FBE31421770DC2005ECEFD /* MidTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MidTableViewCell.xib; sourceTree = "<group>"; };
+		12FBE31721770DCE005ECEFD /* BottomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTableViewCell.swift; sourceTree = "<group>"; };
+		12FBE31821770DCE005ECEFD /* BottomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomTableViewCell.xib; sourceTree = "<group>"; };
 		1F9547E03F34B9B763726293 /* Pods-Ambition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ambition/Pods-Ambition.debug.xcconfig"; sourceTree = "<group>"; };
 		487AA87A49F54276E568F89F /* Pods_Ambition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B481CB43111E9DDCBB407C /* Pods-Ambition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambition.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ambition/Pods-Ambition.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,17 +174,22 @@
 		1295598D21526BBA00FF949A /* Ambition */ = {
 			isa = PBXGroup;
 			children = (
+				12FBE2A92176E7AE005ECEFD /* View */,
+				12FBE2A02176D4AF005ECEFD /* ExampleViewController */,
+				12FBE29B2176CF54005ECEFD /* extension */,
 				12FBE2982175D91A005ECEFD /* Model */,
 				12FBE2932175D2E6005ECEFD /* Base */,
 				12FBE28721758479005ECEFD /* Login */,
 				1295598E21526BBA00FF949A /* AppDelegate.swift */,
 				1295599021526BBA00FF949A /* ViewController.swift */,
 				1295599221526BBA00FF949A /* Main.storyboard */,
+				12FBE3092176F594005ECEFD /* ServerData.json */,
 				1295599521526BBB00FF949A /* Assets.xcassets */,
 				1295599721526BBB00FF949A /* LaunchScreen.storyboard */,
 				1295599A21526BBB00FF949A /* Info.plist */,
-				12FBE2912175C7E9005ECEFD /* SettingViewController.swift */,
+				12FBE2D82176EABC005ECEFD /* ProfileViewController.swift */,
 				12FBE2962175D3DE005ECEFD /* MapViewViewController.swift */,
+				12FBE29E2176D011005ECEFD /* FavouriteViewController.swift */,
 			);
 			path = Ambition;
 			sourceTree = "<group>";
@@ -186,8 +243,85 @@
 			isa = PBXGroup;
 			children = (
 				12FBE2992175D928005ECEFD /* Artwork.swift */,
+				12FBE2EF2176F472005ECEFD /* ProfileViewModel.swift */,
+				12FBE3072176F52D005ECEFD /* ProfileModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		12FBE29B2176CF54005ECEFD /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE29C2176CF6B005ECEFD /* UIButtonExtensions.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		12FBE2A02176D4AF005ECEFD /* ExampleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE30E21770D50005ECEFD /* SecondCell */,
+				12FBE30B21770C11005ECEFD /* SeconViewModel */,
+				12FBE2A32176D5C1005ECEFD /* FirstViewController.swift */,
+				12FBE2A52176D932005ECEFD /* SecondViewController.swift */,
+				12FBE2A62176D932005ECEFD /* SecondViewController.xib */,
+			);
+			path = ExampleViewController;
+			sourceTree = "<group>";
+		};
+		12FBE2A92176E7AE005ECEFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE2AA2176E7BA005ECEFD /* Setting */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12FBE2AA2176E7BA005ECEFD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE2F22176F4DF005ECEFD /* Cell */,
+				12FBE2D62176EAAE005ECEFD /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		12FBE2F22176F4DF005ECEFD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE2F32176F4DF005ECEFD /* AboutCell.swift */,
+				12FBE2F42176F4DF005ECEFD /* AboutCell.xib */,
+				12FBE2F52176F4DF005ECEFD /* AttributeCell.swift */,
+				12FBE2F62176F4DF005ECEFD /* AttributeCell.xib */,
+				12FBE2F72176F4DF005ECEFD /* EmailCell.swift */,
+				12FBE2F82176F4DF005ECEFD /* EmailCell.xib */,
+				12FBE2F92176F4DF005ECEFD /* FriendCell.swift */,
+				12FBE2FA2176F4DF005ECEFD /* FriendCell.xib */,
+				12FBE2FB2176F4DF005ECEFD /* NamePictureCell.swift */,
+				12FBE2FC2176F4DF005ECEFD /* NamePictureCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		12FBE30B21770C11005ECEFD /* SeconViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE30C21770C5A005ECEFD /* SecondViewModel.swift */,
+			);
+			path = SeconViewModel;
+			sourceTree = "<group>";
+		};
+		12FBE30E21770D50005ECEFD /* SecondCell */ = {
+			isa = PBXGroup;
+			children = (
+				12FBE30F21770DB3005ECEFD /* TopTableViewCell.swift */,
+				12FBE31021770DB3005ECEFD /* TopTableViewCell.xib */,
+				12FBE31321770DC2005ECEFD /* MidTableViewCell.swift */,
+				12FBE31421770DC2005ECEFD /* MidTableViewCell.xib */,
+				12FBE31721770DCE005ECEFD /* BottomTableViewCell.swift */,
+				12FBE31821770DCE005ECEFD /* BottomTableViewCell.xib */,
+			);
+			path = SecondCell;
 			sourceTree = "<group>";
 		};
 		1E6421886447F48E8ECFAB92 /* Pods */ = {
@@ -316,10 +450,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FBE2FE2176F4DF005ECEFD /* AboutCell.xib in Resources */,
+				12FBE31A21770DCE005ECEFD /* BottomTableViewCell.xib in Resources */,
 				12FBE28B21758490005ECEFD /* LoginViewController.xib in Resources */,
+				12FBE31221770DB3005ECEFD /* TopTableViewCell.xib in Resources */,
+				12FBE3062176F4DF005ECEFD /* NamePictureCell.xib in Resources */,
 				1295599921526BBB00FF949A /* LaunchScreen.storyboard in Resources */,
+				12FBE30A2176F594005ECEFD /* ServerData.json in Resources */,
+				12FBE3022176F4DF005ECEFD /* EmailCell.xib in Resources */,
+				12FBE2A82176D932005ECEFD /* SecondViewController.xib in Resources */,
+				12FBE3042176F4DF005ECEFD /* FriendCell.xib in Resources */,
 				12FBE29021758772005ECEFD /* LoginTableViewCell.xib in Resources */,
 				1295599621526BBB00FF949A /* Assets.xcassets in Resources */,
+				12FBE3002176F4DF005ECEFD /* AttributeCell.xib in Resources */,
+				12FBE31621770DC2005ECEFD /* MidTableViewCell.xib in Resources */,
 				1295599421526BBA00FF949A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,13 +552,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FBE2922175C7E9005ECEFD /* SettingViewController.swift in Sources */,
+				12FBE2A72176D932005ECEFD /* SecondViewController.swift in Sources */,
+				12FBE2D72176EAAE005ECEFD /* SettingViewController.swift in Sources */,
+				12FBE2FF2176F4DF005ECEFD /* AttributeCell.swift in Sources */,
+				12FBE2FD2176F4DF005ECEFD /* AboutCell.swift in Sources */,
+				12FBE3012176F4DF005ECEFD /* EmailCell.swift in Sources */,
+				12FBE31521770DC2005ECEFD /* MidTableViewCell.swift in Sources */,
+				12FBE31121770DB3005ECEFD /* TopTableViewCell.swift in Sources */,
 				12FBE28A21758490005ECEFD /* LoginViewController.swift in Sources */,
+				12FBE2A42176D5C1005ECEFD /* FirstViewController.swift in Sources */,
+				12FBE30D21770C5A005ECEFD /* SecondViewModel.swift in Sources */,
+				12FBE2D92176EABC005ECEFD /* ProfileViewController.swift in Sources */,
 				1295599121526BBA00FF949A /* ViewController.swift in Sources */,
+				12FBE31921770DCE005ECEFD /* BottomTableViewCell.swift in Sources */,
+				12FBE2F02176F472005ECEFD /* ProfileViewModel.swift in Sources */,
 				1295598F21526BBA00FF949A /* AppDelegate.swift in Sources */,
+				12FBE3052176F4DF005ECEFD /* NamePictureCell.swift in Sources */,
 				12FBE28F21758772005ECEFD /* LoginTableViewCell.swift in Sources */,
 				12FBE2952175D2F7005ECEFD /* BaseViewController.swift in Sources */,
+				12FBE3032176F4DF005ECEFD /* FriendCell.swift in Sources */,
+				12FBE3082176F52D005ECEFD /* ProfileModel.swift in Sources */,
+				12FBE29D2176CF6B005ECEFD /* UIButtonExtensions.swift in Sources */,
 				12FBE29A2175D928005ECEFD /* Artwork.swift in Sources */,
+				12FBE29F2176D011005ECEFD /* FavouriteViewController.swift in Sources */,
 				12FBE2972175D3DE005ECEFD /* MapViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

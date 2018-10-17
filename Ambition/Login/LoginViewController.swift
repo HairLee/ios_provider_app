@@ -66,15 +66,31 @@ class LoginViewController: BaseViewController {
 
 
 extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+         return "Title \(section)"
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrRes.count
+        
+        
+        switch section {
+        case 0:
+            return arrRes.count
+        default:
+            return arrRes.count
+        }
+        
+      
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: loginCell) as! LoginTableViewCell
          var dict = arrRes[(indexPath as NSIndexPath).row]
         cell.tag = indexPath.row

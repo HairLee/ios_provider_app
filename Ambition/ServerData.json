@@ -1,0 +1,39 @@
+{
+    "data": {
+        "id": 1,
+        "fullName": "Hai Pham",
+        "pictureUrl": "ava",
+        "email": "haipham@gmail.com",
+        "about": "Nothing to show",
+        "friends": [
+                    {
+                    "name": "Beck",
+                    "pictureUrl": "ava"
+                    },
+                    {
+                    "name": "Tony",
+                    "pictureUrl": "ava"
+                    },
+                    {
+                    "name": "Hand",
+                    "pictureUrl": "ava"
+                    }
+                    ],
+        "profileAttributes": [
+                              {
+                              "key": "Date of birth",
+                              "value": "November 30, 3000"
+                              },
+                              {
+                              "key": "Gender",
+                              "value": "male"
+                              },
+                              {
+                              "key": "Height",
+                              "value": "200"
+                              }
+                              ]
+    },
+    "error": 0,
+    "message": "Success"
+}

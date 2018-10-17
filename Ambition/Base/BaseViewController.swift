@@ -21,7 +21,7 @@ class BaseViewController: UIViewController {
     }
     
     func showDialog(){
-        overlay = MRProgressOverlayView.showOverlayAdded(to: self.view, animated: false)
+        overlay = MRProgressOverlayView.showOverlayAdded(to: self.view, animated: true)
     }
     
     func dismissDialog(){
